@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex flex-column gap-s padding-r-l">
+    <div class="box flex background-light-gray ten-padding space-between">
+        <h1>Dojonary</h1>
+        <input class="lite-black-border" type="search" name="search" placeholder="search" id="search">
+        <button class="padding-r-l box-shadow background-blue text-white lite-black-border">Logout</button>
+    </div>
+    <div class="flex gap-s">
+        <div class="flex flex-column gap-s">
+            <div class="flex align-center gap-m black-border ten-padding">
+                <div class="flex flex-column gap-s">
+                    <h1>ninja</h1>
+                    <ul>
+                        <li>noun</li>
+                        <li>Plural: ninjas</li>
+                    </ul>
+                    <button class="background-yellow box-shadow lite-black-border" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div>
+                    <p>A practitioner skilled in the<br> <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="flex black-border ten-padding align-center gap-m">
+                <div class="flex flex-column gap-s">
+                    <h1>ninja</h1>
+                    <ul>
+                        <li>noun</li>
+                        <li>Plural: ninjas</li>
+                    </ul>
+                    <button class="background-yellow box-shadow lite-black-border" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div>
+                    <p>A <a href="#">programmer</a> who breaks<br> down problems with <a href="#">zen</a>-like<br> focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-column gap-s black-border height-fit ten-padding">
+            <p>Dojonary is<br> defined by YOU</p>
+            <button class="background-green" onclick="hide(this)">Add Definition</button>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
